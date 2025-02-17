@@ -13,7 +13,25 @@
   <title>Document</title>
 </head>
 
-<body>
+<body class="backgroundcolor">
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <h2>Home</h2>
+        <div id="home-score">0</div>
+      </div>
+      <div class="col-6">
+        <h2>Away</h2>
+        <div id="away-score">0</div>
+      </div>
+      <div class="col-6">
+        <button onclick="home1point()" class="btn btn-success">Home button</button>
+      </div>
+      <div class="col-6">
+        <button onclick="Away1point()" class="btn btn-success">Away button</button>
+      </div>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>
