@@ -11,7 +11,7 @@ let away = 0
 //scoring buttons and checks
 function home1point() {
   console.log('Home score plus one')
-  home += 1
+  home++
   console.log(home)
   UpdateHomeScore()
   CheckWinner()
@@ -23,10 +23,14 @@ function home3point() {
   UpdateHomeScore()
   CheckWinner()
 }
+function negativePoint() {
+
+
+}
 
 function away1point() {
   console.log('Away score plus one')
-  away += 1
+  away++
   console.log(away)
   UpdateAwayScore()
   CheckWinner()
